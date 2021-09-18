@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFAEB;
+    min-height: 100vh;
+    color: #4C4642;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15vh;        
+    background: #C5B3A4;
+    font-weight: bold;
+    font-size: 45px;    
+}
+.container {
+    display: flex;    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;            
+    width: 80%;
+    height: 100vh;
+    padding-top: 2%;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    background: #E8C9B0;    
+}
+.tasklist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 90%;
+    font-size: 25px;    
+}
+.task-content {
+    display: flex;        
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: 1% 0 1% 0;
+    background: #DDE4E4;
+    border-radius: 20px;    
+}
+.task-content-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1vw;    
+}
+.task-content-child label {
+    margin-left: 2vh;
+    cursor: pointer;
+}
+.task-content-child input {        
+    cursor: pointer;            
+}
+.task-content button {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+    background: #DDE4E4;
+    font-size: 35px;
+    font-weight: bold;
+    color: #F6B179;
+    cursor: pointer;
+}
+.task-content button:hover {    
+    background: #A6C9B8;
+}
+.form { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+    width: 90%;
+    background: #FFFAEB;
+    margin-bottom: 1.5%;    
+    border-radius: 21px;
+}
+.form input {
+    border: none;
+    width: 40%;
+    height: 80%;
+    margin-left: 2%;    
+    font-size: 25px;   
+    background: #FFFAEB;
+}
+.form button {        
+    height: 80%;
+    border: none;
+    border-radius: 18px;
+    margin-right: 4px;    
+    font-size: 20px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;    
+    background: #C5B3A4;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form button:hover {        
+    background: #DDE4E4;
+}
