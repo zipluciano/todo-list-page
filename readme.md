@@ -1,5 +1,7 @@
 # To-Do List
 
+### Para acessar a aplicação: https://zipluciano.github.io/todo-list-page/
+
 Esse projeto foi desenvolvido com o objetivo de praticar a manipulação do DOM, com HTML, CSS e JavaScript, através de formulários e armazenamento em LocalStorage. Para utilizá-lo basta seguir os passos em [Como usar](#como-usar).
 
  ![image](./to_do_list.png)
